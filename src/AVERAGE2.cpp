@@ -1,0 +1,2 @@
+#include "AVERAGE2.h"
+AVERAGE2::AVERAGE2(int n) :MOB(3000, &images->average2[UP], &images->average2[DOWN], &images->average2[LEFT], &images->average2[RIGHT], average2_s + n,&spear), spear(length, CAMP::enemy){}

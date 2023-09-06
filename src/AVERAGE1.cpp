@@ -1,0 +1,2 @@
+#include"AVERAGE1.h"
+AVERAGE1::AVERAGE1(int n) :MOB(1000, &images->average1[UP], &images->average1[DOWN], &images->average1[LEFT], &images->average1[RIGHT], average1_s+n,&gun), gun(length, CAMP::enemy) {}
